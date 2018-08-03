@@ -12,11 +12,12 @@ h1 {
 table {
   width: 100%;
 }
-table, th, td {
-  border: 1px dotted black;
+ th, td {
+  border-bottom: 1px dotted black;
+  width:
 }
 
-thead {
+/* thead {
   background-color: gray;
 }
 
@@ -26,7 +27,7 @@ tbody {
 
 td {
   text-align: left;
-}
+} */
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
