@@ -1,0 +1,22 @@
+lement.style {
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+head {
+    display: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Mina', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}

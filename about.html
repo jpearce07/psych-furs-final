@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+  <link href="./assets/stylesheets/styles.css" rel="stylesheet" type ="text/css" />
+  <title>HTML 5 CSS3 Class</title>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About</a>
+  <a href="discography.html">Discography</a>
+  <a href="merch.html">Merch</a>
+  <a href="media.html">Media</a>
+  <a href="tour-dates.html">Tour Dates</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+  <!-- <a href="tour-dates.html" target="_blank">Tour Dates Page</a> -->
+
+  <h1>About</h1>
+  <img src="./assets/images/current-furs.jpg" alt="psychedelic furs"/ >
+     <p>
+       If you sit and talk to many of the alternative rock artists dominating today’s music, you’ll find that many of them pay homage to the The Psychedelic Furs. Led by front man and songwriter Richard Butler, the Furs won over fans and critics alike by combining poetic lyrics, innovative rhythms and melodies driven by an aggressive, punk desperation. Through it all, the band scored major hits with "Love My Way," "Pretty In Pink," "Heaven," "The Ghost In You," and “Heartbreak Beat” in all releasing seven studio albums.
+     </p>
+     <p>
+       The Psychedelic Furs came together in England's emerging punk scene in 1977 initially consisting of Richard Butler (vocals), Tim Butler (bass guitar), Paul Wilson (drums), Duncan Kilburn (saxophone), and Roger Morris (guitars). By 1979, this line up had expanded to a sextet with Vince Ely replacing Wilson on drums and John Ashton being added on guitar.
+     </p>
+     <p>
+       These days, the band continues to tour around the world. The current Psychedelic Furs touring lineup remains Richard Butler (vocals), Tim Butler (bass), Rich Good (guitar), Mars Williams (saxophone), Amanda Kramer (keyboards), and Paul Garisto (drums).
+     </p>
+
+     <script>
+   function myFunction() {
+       var x = document.getElementById("myTopnav");
+       if (x.className === "topnav") {
+           x.className += " responsive";
+       } else {
+           x.className = "topnav";
+       }
+   }
+   </script>
+
+</body>
+</html>
