@@ -10,11 +10,12 @@ h1 {
   text-align: center;
 }
 table {
-  width: 100%;
+  width: 20%;
+
 }
  th, td {
   border-bottom: 1px dotted black;
-  width:
+  text-align: center;
 }
 
 /* thead {
@@ -30,6 +31,7 @@ td {
 } */
 h1 {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 /* tour dates page*/
 
