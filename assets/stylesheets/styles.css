@@ -6,11 +6,12 @@
 body {
   background-color: teal;
 }
-h1 {
+h1, h3 {
   text-align: center;
 }
 table {
   width: 20%;
+  padding-bottom: 50px;
 
 }
  th, td {
@@ -102,6 +103,12 @@ h1{
   text-align: center;
   padding-bottom: 100px
   margin: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 /* merch page */
