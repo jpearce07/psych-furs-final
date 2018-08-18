@@ -12,12 +12,21 @@ body, html {
   background: linear-gradient(to right, rgba(0,128,128,1) 0%, rgba(24,194,41,1) 100%);
   /* background: linear-gradient( to right, teal , green); */
 }
-img-responsive {
+.img-responsive {
   height:auto;
-  width: 100%;
-  display: block;
+  width: 110%;
+  display: inline-block;
 }
-
+ul.a {
+    list-style-type: circle;
+    display: inline-block;
+}
+h2 {
+  margin-bottom: 3px;
+}
+  li {
+    text-align: left;
+  }
 /* html,body {
   font-family: 'Raleway', sans-serif;
   padding: 0 2em;
